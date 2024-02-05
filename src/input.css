@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cardfirst {
+    max-width: 312px;
+   border-radius: 10px;
+
+   }
+   .stylecard{
+    border: solid 1px #E0E0E0;
+    border-radius: 17px;
+    margin-bottom: 24px;
+   }
+
+   .activetab{
+    color: red;
+    border-bottom: 3px solid red;
+   }
+   .navlinks:hover{
+    -webkit-text-stroke: 1px black;
+   }
+
+   .menulist.show {
+    right: 0;
+}
+
+.menuicon.show .bar:nth-child(1) {
+    transform: translateY(5px) rotate(45deg);
+}
+
+.menuicon.show .bar:nth-child(2) {
+    display: none;
+}
+
+.menuicon.show .bar:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+}
